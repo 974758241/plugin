@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Timekeeping"
+            id="com.packtpub.e4.clock.ui">
+      </category>
+      <view
+            id="com.packtpub.e4.clock.ui.views.ClockView"
+            name="Clock View"
+            icon="icons/sample.png"
+            class="com.packtpub.e4.clock.ui.views.ClockView"
+            category="com.packtpub.e4.clock.ui"
+            inject="true">
+      </view>
+   </extension>
+
+</plugin>
