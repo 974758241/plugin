@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <requires>
+	   <import plugin="org.eclipse.core.resources"/>
+       <import plugin="org.eclipse.ui"/>
+   </requires>
+
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            description="This will open up the menu for the Github Copilot extension."
+            id="me.masecla.copilot.CopilotActionSet"
+            label="Github Copilot"
+            visible="true">
+            <menu
+            	id="me.masecla.copilot.CopilotMenu"
+            	label="key">
+            </menu>
+            <action id="me.masecla.copilot.topbar.settings"
+		        menubarPath="org.eclipse.examples.helloworld.HelloWorldMenu/samples"
+		        toolbarPath="Normal"			
+		        label="Copilot Settings"
+		        style="pulldown"
+		        tooltip="Press to see a message"
+		        icon="icons/copilot/copilot16.png"
+		        class="me.masecla.copilot.CopilotActionSet"/>
+      </actionSet>
+   </extension>
+</plugin>

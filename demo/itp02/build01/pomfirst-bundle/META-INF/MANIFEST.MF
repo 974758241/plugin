@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: 11.0.11 (AdoptOpenJDK)
+Tool: Bnd-0.0.357
+Bnd-LastModified: 1651124900953
+Export-Package: tycho.demo.itp02.pomfirst;uses:="org.codehaus.plexus.uti
+ l";version="1.0.0.SNAPSHOT"
+Import-Package: org.codehaus.plexus.util,tycho.demo.itp02.pomfirst;versi
+ on="1.0"
+Bundle-Name: pomfirst-bundle
+Bundle-SymbolicName: tycho.demo.itp02.pomfirst-bundle
+Bundle-Version: 1.0.0.SNAPSHOT
+

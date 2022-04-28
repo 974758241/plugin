@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: bundle Plug-in
+Bundle-SymbolicName: tycho.demo.itp02.bundle.tests
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: 
+ org.eclipse.core.runtime,
+ org.junit
+Import-Package: tycho.demo.itp02.bundle

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Partdescriptor
+Bundle-SymbolicName: com.vogella.plugin.partdescriptor;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.vogella.plugin.partdescriptor.Activator
+Bundle-Vendor: VOGELLA
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.e4.ui.model.workbench;bundle-version="2.2.0.v20210727-1533"
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: com.vogella.plugin.partdescriptor
+Import-Package: javax.inject
+Bundle-ActivationPolicy: lazy
